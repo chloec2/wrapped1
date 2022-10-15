@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #004879;
+    justify-content: space-between;
+    color: white;
+    padding-left: 1em;
+    height: 3.25em;
+}
+
+.links {
+    display: flex;
+    
+}
+
+a {
+    padding-right: 2em;
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 36;
+    font-weight: bold;
+}

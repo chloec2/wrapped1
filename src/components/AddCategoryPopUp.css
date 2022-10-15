@@ -1,0 +1,108 @@
+.modal {
+    font-size: 22px;
+    text-align: center;
+    background-color: #004879;
+    color: #E8E8F0;
+    height: 425px;
+    /* position: fixed; */
+    /* align-content: center;
+    justify-content: center; */
+    margin: auto;
+    width: 550px;
+    /* display: inline-block; */
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  .modal > .header {
+    width: 99%;
+    border-bottom: 1px solid #E8E8F0;
+    font-size: 24px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #E8E8F0;
+    border-radius: 18px;
+    border: 2px solid #376CA0;
+    color: #376CA0;
+  }
+.button {
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    border-radius: 8px;
+    border: 2px solid #376CA0;
+    background: #E8E8F0;
+}
+
+.form {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-heading {
+  margin-top: 10px;
+}
+
+.form-button {
+  background-color: #D22E1E;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.input {
+  /* width: 300px; */
+  align-items: center;
+  border-radius: 20px;
+  margin: 20px;
+  color:#004879;
+  text-indent: 10px;
+  font-size: 20px;
+  
+}
+
+.input-descr {
+  /* width: 300px; */
+  align-items: center;
+  border-radius: 20px;
+  margin: 20px;
+  color:#004879;
+  text-indent: 10px;
+  font-size: 20px;
+  width: 250px;
+  height: 150px;
+  text-overflow: wrap;
+}
+
+.pair {
+  align-items: center;
+  display: flex;
+}

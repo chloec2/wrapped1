@@ -1,0 +1,55 @@
+.store {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    will-change: transform;
+    transition: all 0.3s ease-in;
+    background-color: #c5e5fa;
+  }
+
+
+  .store-alt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    will-change: transform;
+    transition: all 0.3s ease-in;
+    background-color: #FBEAE9;
+  }
+
+
+.store-name,
+.store-spent,
+.store-rank{
+    margin-left: 10px;
+}
+
+.stores-wrapper {
+    border: 1px solid salmon;
+    width: 300px;
+    padding: 0;
+    margin-left: 100px;
+  }
+
+
+.store-list {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.list-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+}
+
+.stores-header{
+    font-size: 18px;
+    font-weight: 900;
+    margin: 5px;
+    font-style: bold;
+}
